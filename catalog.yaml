@@ -1,0 +1,10 @@
+#Please update lifecycle,owner details manually in case it changes any time after onboarding.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Building-Block-Platform-Recipes"
+  description: "This repository contains examples of various ways to use the Building Block Platform."
+spec:
+  type: "library"
+  lifecycle:  "production"
+  owner: "team-enablement"
